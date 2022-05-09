@@ -5,7 +5,7 @@ import 'package:shadow_clip/shadow_clip.dart';
 
 class Ticket extends StatelessWidget {
   const Ticket(
-      {required Key key,
+      {Key? key,
       this.innerRadius = const BorderRadius.all(Radius.circular(0.0)),
       this.outerRadius = const BorderRadius.all(Radius.circular(0.0)),
       required this.child,
