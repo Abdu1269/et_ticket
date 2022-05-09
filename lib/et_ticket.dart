@@ -5,13 +5,11 @@ import 'package:shadow_clip/shadow_clip.dart';
 
 class Ticket extends StatelessWidget {
   const Ticket(
-      {Key? key,
-      this.innerRadius = const BorderRadius.all(Radius.circular(0.0)),
+      {this.innerRadius = const BorderRadius.all(Radius.circular(0.0)),
       this.outerRadius = const BorderRadius.all(Radius.circular(0.0)),
       required this.child,
       this.boxShadow = const [],
-      this.dashedBottom = false})
-      : super(key: key);
+      this.dashedBottom = false});
 
   final BorderRadius innerRadius;
 
