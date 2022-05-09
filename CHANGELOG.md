@@ -1,3 +1,6 @@
-## 0.0.1
+## [0.0.2] - 2022-9-5
 
-* TODO: Describe initial release.
+* Null-safety migration
+## [0.0.1] - 2022-9-5
+
+

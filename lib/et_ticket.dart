@@ -1,4 +1,4 @@
-library fw_ticket;
+library et_ticket;
 
 import 'package:flutter/widgets.dart';
 import 'package:shadow_clip/shadow_clip.dart';
